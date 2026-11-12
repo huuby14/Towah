@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f1e9">
+    <meta name="description" content="The portfolio of Joshua Jireh S. Macavinta, an aspiring front-end developer and IT student building thoughtful, responsive web experiences.">
+    <title>Joshua Macavinta — Front-end developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="nav-wrap">
+        <a class="brand" href="#top" aria-label="Joshua Macavinta home">
+          <span class="brand-mark">jm<span>.</span></span>
+          <span class="brand-name">Joshua Macavinta</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Aspiring front-end developer <span class="eyebrow-separator">·</span> IT student</p>
+          <h1 id="hero-title">I make the web<br>feel a little more <em>human.</em></h1>
+          <p class="hero-lede">Hi, I’m <strong>Joshua Jireh S. Macavinta.</strong> I enjoy turning ideas into clean, responsive, and user-friendly digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View my projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#contact">Contact me <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-socials" aria-label="Social links">
+            <span>Find me</span>
+            <a data-social="github" href="https://github.com/your-username" aria-label="GitHub profile" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.68-3.76-1.32-3.76-1.32-.5-1.29-1.23-1.63-1.23-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.74 2.48 4.75 1.76.1-.72.39-1.21.71-1.49-2.48-.28-5.09-1.24-5.09-5.53 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.43 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.3-2.62 5.25-5.11 5.52.4.35.76 1.03.76 2.08V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z"/></svg>
+            </a>
+            <a data-social="linkedin" href="https://www.linkedin.com/in/your-username/" aria-label="LinkedIn profile" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.86H4.98V9.37h2.95v9.49ZM6.46 8.07a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.4 10.79h-2.95v-4.62c0-1.1-.02-2.5-1.52-2.5-1.53 0-1.77 1.19-1.77 2.42v4.7H9.67V9.37h2.83v1.3h.04c.4-.75 1.36-1.53 2.8-1.53 3 0 3.55 1.98 3.55 4.55v5.17Z"/></svg>
+            </a>
+            <a data-social="facebook" href="https://www.facebook.com/your-profile" aria-label="Facebook profile" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.4 21v-8.2h2.76l.41-3.2H13.4V7.56c0-.93.26-1.56 1.6-1.56h1.7V3.14c-.3-.04-1.35-.14-2.58-.14-2.55 0-4.3 1.55-4.3 4.4V9.6H7v3.2h2.82V21h3.58Z"/></svg>
+            </a>
+            <span class="social-note">Links are editable in <code>script.js</code></span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-sticker sticker-top">curious by nature</div>
+          <div class="portrait-card">
+            <div class="portrait-topline"><span>PROFILE / 01</span><span>IT / 01</span></div>
+            <div class="portrait-art">
+              <img class="portrait-photo" src="images/joshua-profile.jpg" alt="Portrait of Joshua Jireh S. Macavinta" fetchpriority="high" decoding="async">
+            </div>
+            <div class="portrait-caption"><span class="portrait-index">01</span><span>Joshua Jireh S. Macavinta</span><span class="caption-arrow">↗</span></div>
+          </div>
+          <div class="art-sticker sticker-bottom">building with intent</div>
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-line"></span> Scroll to explore</a>
+      </section>
+
+      <section class="intro-strip" aria-label="Portfolio focus">
+        <div class="section-shell intro-inner">
+          <span>Thoughtful interfaces</span><i aria-hidden="true">·</i><span>Responsive by default</span><i aria-hidden="true">·</i><span>Always learning</span>
+        </div>
+      </section>
+
+      <section class="section-shell section-block about-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="section-kicker">01 / A little about me</p>
+          <h2 id="about-title">Curious mind.<br><em>Careful craft.</em></h2>
+        </div>
+        <div class="about-content">
+          <p class="about-lede">I’m an Information Technology student who cares about the little details that make a website feel effortless.</p>
+          <p>I am passionate about front-end development and website design. I enjoy creating clean, responsive, and user-friendly websites. I have experience using HTML, CSS, and JavaScript through academic and personal projects. I’m creative, hardworking, and always interested in learning new technologies to improve my development skills.</p>
+          <p>From shaping a clear interface to figuring out why a sensor missed its mark, I like learning by making things. My projects in web development, programming, and robotics keep me curious about how people interact with technology.</p>
+          <div class="about-facts">
+            <div><span class="fact-label">Currently studying</span><strong>Information Technology</strong></div>
+            <div><span class="fact-label">Most at home with</span><strong>HTML · CSS · JavaScript</strong></div>
+            <div><span class="fact-label">Next on my list</span><strong>Building better web experiences</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-band" id="skills" aria-labelledby="skills-title">
+        <div class="section-shell section-block skills-section">
+          <div class="section-heading">
+            <p class="section-kicker">02 / Tools in my kit</p>
+            <h2 id="skills-title">Made for the <em>front end.</em></h2>
+            <p class="heading-note">A growing toolkit for shaping ideas into clear, useful interfaces.</p>
+          </div>
+          <div class="skill-groups">
+            <article class="skill-card skill-card-feature">
+              <div class="skill-card-head"><span class="skill-number">01</span><span class="skill-icon">&lt;/&gt;</span></div>
+              <h3>Front-end &amp; design</h3>
+              <p>My primary focus: thoughtful interfaces that work across screens.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span><span>UI design</span></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-card-head"><span class="skill-number">02</span><span class="skill-icon">⌘</span></div>
+              <h3>Programming</h3>
+              <p>Building a solid foundation in problem-solving and logic.</p>
+              <div class="tag-list"><span>Java</span><span>C#</span><span>Python</span></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-card-head"><span class="skill-number">03</span><span class="skill-icon">↗</span></div>
+              <h3>Development tools</h3>
+              <p>Familiar environments for learning, prototyping, and building.</p>
+              <div class="tag-list"><span>VS Code</span><span>Visual Studio</span><span>NetBeans</span><span>Android Studio</span><span>Arduino IDE</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-block projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="projects-heading">
+          <div class="section-heading">
+            <p class="section-kicker">03 / Selected work</p>
+            <h2 id="projects-title">A few things<br>I’ve <em>made.</em></h2>
+          </div>
+          <p class="projects-intro">Academic and personal projects where I’ve practiced turning ideas into working experiences. Choose a project to see what I contributed.</p>
+        </div>
+        <div class="project-grid">
+          <button class="project-card" type="button" data-project="robot" aria-haspopup="dialog">
+            <div class="project-preview preview-robot" aria-hidden="true">
+              <div class="robot-label">HARDWARE / 02</div>
+              <svg class="robot-drawing" viewBox="0 0 440 220" role="img" aria-label="Illustration of a small line-following robot">
+                <path class="track-line" d="M-20 172c55 0 60-70 112-70h54c64 0 59 75 121 75h54c65 0 47-81 119-81"/>
+                <rect class="robot-board" x="153" y="69" width="132" height="76" rx="13"/>
+                <rect class="robot-board-inner" x="177" y="89" width="83" height="37" rx="5"/>
+                <circle class="robot-sensor" cx="188" cy="153" r="10"/><circle class="robot-sensor" cx="248" cy="153" r="10"/>
+                <rect class="robot-sensor-top" x="182" y="54" width="17" height="27" rx="4"/><rect class="robot-sensor-top" x="248" y="54" width="17" height="27" rx="4"/>
+                <circle class="robot-wheel" cx="145" cy="107" r="9"/><circle class="robot-wheel" cx="293" cy="107" r="9"/>
+                <path class="robot-wire" d="M197 91v-9m55 9v-9M220 126v20"/>
+                <circle class="robot-led" cx="218" cy="105" r="7"/><circle class="robot-led" cx="240" cy="105" r="7"/>
+                <text x="220" y="112" text-anchor="middle">IR</text>
+              </svg>
+              <div class="robot-caption"><span>IR sensors</span><span>line tracking</span><span>motor control</span></div>
+            </div>
+            <div class="project-card-body"><div class="project-meta"><span>ROBOTICS</span><span>01 — 03</span></div><h3>Line-following robot</h3><p>An Arduino robot that reads a path with infrared sensors and adjusts its movement.</p><div class="project-bottom"><div class="mini-tags"><span>Arduino</span><span>IR sensors</span></div><span class="project-open" aria-hidden="true">↗</span></div></div>
+          </button>
+          <button class="project-card" type="button" data-project="java" aria-haspopup="dialog">
+            <div class="project-preview preview-code" aria-hidden="true">
+              <div class="code-window"><div class="code-title"><span class="window-dots"><i></i><i></i><i></i></span><span>Java / practice.java</span><span>⋯</span></div><div class="code-body"><div class="line-numbers">01<br>02<br>03<br>04<br>05<br>06<br>07<br>08<br>09</div><pre><b>class</b> <i>Practice</i> {
+  <b>public static void</b> main() {
+    <em>int</em>[] scores = {82, 94, 76};
+    <b>for</b> (<em>int</em> score : scores) {
+      System.out.println(score);
+    }
+    <span>// keep learning, keep building</span>
+  }
+}</pre></div><div class="code-footer"><span>● Ready</span><span>Java · learning project</span></div></div>
+            </div>
+            <div class="project-card-body"><div class="project-meta"><span>PROGRAMMING</span><span>02 — 03</span></div><h3>Java projects</h3><p>Study projects exploring logic, data handling, and the building blocks of programming.</p><div class="project-bottom"><div class="mini-tags"><span>Java</span><span>Arrays</span><span>HashMaps</span></div><span class="project-open" aria-hidden="true">↗</span></div></div>
+          </button>
+          <button class="project-card" type="button" data-project="csharp" aria-haspopup="dialog">
+            <div class="project-preview preview-desktop" aria-hidden="true">
+              <div class="desktop-window"><div class="desktop-title"><span>Windows Forms · App</span><span>−　□　×</span></div><div class="desktop-app"><aside><b>JM</b><span class="side-active">Overview</span><span>Calculator</span><span>Settings</span></aside><div class="desktop-main"><small>WELCOME BACK</small><strong>Simple tools,<br>made for practice.</strong><div class="desktop-boxes"><i></i><i></i><i></i></div><div class="desktop-action">OPEN PROJECT&nbsp; ↗</div></div></div></div>
+            </div>
+            <div class="project-card-body"><div class="project-meta"><span>DESKTOP APP</span><span>03 — 03</span></div><h3>C# Windows Forms</h3><p>Desktop application exercises focused on interface design and interactive forms.</p><div class="project-bottom"><div class="mini-tags"><span>C#</span><span>Windows Forms</span></div><span class="project-open" aria-hidden="true">↗</span></div></div>
+          </button>
+        </div>
+        <p class="project-footnote">Project visuals are illustrative previews. Replace them with screenshots as your work evolves.</p>
+      </section>
+
+      <section class="education-band" id="education" aria-labelledby="education-title">
+        <div class="section-shell section-block education-section">
+          <div class="section-heading">
+            <p class="section-kicker">04 / The learning path</p>
+            <h2 id="education-title">Learning by <em>doing.</em></h2>
+          </div>
+          <div class="education-entry">
+            <div class="education-marker"><span></span></div>
+            <div class="education-copy"><p class="section-kicker">CURRENT STUDIES</p><h3>STI College Las Piñas</h3><p>Information Technology</p></div>
+            <div class="education-date">Academic year <span>[Add academic year]</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-block personal-section" aria-labelledby="personal-title">
+        <div class="personal-heading"><p class="section-kicker">05 / How I work</p><h2 id="personal-title">Good work starts<br>with a <em>good mindset.</em></h2></div>
+        <div class="trait-grid">
+          <span><i>01</i> Creativity</span><span><i>↗</i> Problem-solving</span><span><i>⌕</i> Attention to detail</span><span><i>◎</i> Teamwork</span>
+          <span><i>↔</i> Communication</span><span><i>◷</i> Time management</span><span><i>⌁</i> Adaptability</span><span><i>＋</i> Willingness to learn</span>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell section-block contact-layout">
+          <div class="contact-copy">
+            <p class="section-kicker">06 / Say hello</p>
+            <h2 id="contact-title">Have an idea?<br><em>Let’s talk.</em></h2>
+            <p>I’m open to connecting about front-end development, creative projects, and opportunities to learn. Send a note and I’ll be glad to hear from you.</p>
+            <a class="contact-email" data-contact="email" href="mailto:joshuamacavinta00@gmail.com">joshuamacavinta00@gmail.com <span>↗</span></a>
+            <div class="contact-detail"><span>PHONE</span><a data-contact="phone" href="tel:+63XXXXXXXXXX">+63 XXX XXX XXXX</a></div>
+            <div class="contact-links">
+              <a data-social="facebook" href="https://www.facebook.com/your-profile" target="_blank" rel="noreferrer">Facebook <span>↗</span></a>
+              <a data-social="linkedin" href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+              <a data-social="github" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            </div>
+            <p class="edit-note">Phone and social links are placeholders — edit them in <code>script.js</code>.</p>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <p class="form-intro">Drop a note <span aria-hidden="true">↘</span></p>
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Smith" required>
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="A project, an opportunity…" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me a little about it…" required></textarea>
+            <button class="button button-primary form-submit" type="submit">Send message <span aria-hidden="true">↗</span></button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-main">
+        <a class="brand footer-brand" href="#top"><span class="brand-mark">jm<span>.</span></span><span class="brand-name">Joshua Macavinta</span></a>
+        <p>Aspiring front-end developer<br>building with curiosity and care.</p>
+        <div class="footer-nav"><span>QUICK LINKS</span><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+        <a class="back-top" href="#top">Back to top <span>↑</span></a>
+      </div>
+      <div class="section-shell footer-bottom"><span>© <span id="year">2026</span> Joshua Jireh S. Macavinta</span><span>Designed &amp; built with care</span><span>Front-end · Student portfolio</span></div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+      <div class="dialog-preview" id="dialog-preview" aria-hidden="true"></div>
+      <div class="dialog-content"><p class="section-kicker" id="dialog-category"></p><h2 id="dialog-title"></h2><p class="dialog-description" id="dialog-description"></p><h3>What I worked on</h3><ul id="dialog-contributions"></ul><div class="dialog-tech" id="dialog-tech"></div></div>
+    </dialog>
+  </body>
+</html>
